@@ -19,6 +19,6 @@ int main()
     scanf("%d", &b);
     y = (a * x) + b;
 
-    printf("\nO valor de y é: %f\n", y);
+    printf("\nO valor de y é: %.2f\n", y);
     return 0;
 }
