@@ -33,11 +33,4 @@ int main()
     printf("\nO maior numero é: %d", maior);
     printf("\nA soma dos números digitados é: %d", soma);
     printf("\nA média dos números é: %d", soma / 10);
-
-    int x, y, z;
-    x = y = 10;
-    z = ++x;
-    x = -x;
-    y++;
-    x = x + y - (z--);
 }
