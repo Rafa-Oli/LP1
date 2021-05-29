@@ -8,13 +8,12 @@ caso não encontre o elemento o retorno da função será o valor -1.
 #include <stdio.h>
 #include <stdlib.h>
 
-const int VECTOR_SIZE = 5;
+const int SIZE = 5;
 
-int binary_search(int vector[VECTOR_SIZE], int item)
+int binary_search(int vector[SIZE], int item)
 {
-    for (int i = 0; i < VECTOR_SIZE; i++)
+    for (int i = 0; i < SIZE; i++)
     {
-
         if (vector[i] == item)
         {
             return i;
