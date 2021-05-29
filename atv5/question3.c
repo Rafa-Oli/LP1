@@ -35,7 +35,7 @@ int main()
 
     mediaCalculada = media(nota1, nota2, nota3, op);
 
-    printf("Media= %.2f", mediaCalculada);
+    printf("Media = %.2f", mediaCalculada);
 
     return 0;
 }
