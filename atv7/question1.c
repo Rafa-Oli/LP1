@@ -9,7 +9,6 @@
 FILE *arquivo1;
 FILE *arquivo2;
 FILE *arquivo3;
-char teste[] = "conteudo do meu arquivo";
 
 int main()
 {
